@@ -1,0 +1,94 @@
+.bg {
+  animation:slide 12s ease-in-out infinite alternate;
+  /* background: linear-gradient(283.66deg, rgba(202, 255, 8, 0) 25%, rgba(53, 249, 2, 0.5) 70%); */
+  /* background-image: linear-gradient(-60deg, rgb(180, 180, 180) 20% , hwb(110 26% 0%) 60%); */
+  background: linear-gradient(lightgreen,transparent);
+  /* background: #edf0ee;
+  background-color: #edf0ee; */
+  bottom:0;
+  left:-50%;
+  opacity:.5;
+  position:fixed;
+  right:-50%;
+  top:0;
+  z-index:-1;
+}
+
+.bg2 {
+  animation-direction:alternate-reverse;
+  animation-duration:10s;
+}
+
+.bg3 {
+  animation-duration:10s;
+}
+.signup_main{
+  display: flex;
+  justify-content: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background: linear-gradient(transparent,rgb(154, 240, 154));
+  /* background: white; */
+  z-index: -1;
+  /* background-image: url('https://media.istockphoto.com/vectors/abstract-white-background-geometric-texture-vector-id1298706128?k=20&m=1298706128&s=612x612&w=0&h=9hGAk9BklhIxvSrrUEaQRsEcZq8-R3n_z3uGzFNSkhI=');
+  background-repeat: no-repeat;
+  background-size:contain; */
+}
+
+.signup{
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 3px 10px;
+  /* background-color:transparent; */
+  background: #edf0ee;
+  width:900px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type='number']{
+  width: 125%;
+} 
+
+input[type=submit]{
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+#submit:hover {
+  background-color: white;
+  color: green;
+}
+
+select[type="dropdown"]:active{
+  background-color: #4CAF50;
+}
+
+select[type="dropdown"]:focus,
+input[type="text"]:focus,
+input[type="checkbox"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus {   
+  border-color: rgba(126, 239, 104, 0.8);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(126, 239, 104, 0.6);
+  outline: 0 none;
+}

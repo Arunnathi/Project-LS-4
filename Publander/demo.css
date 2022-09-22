@@ -1,0 +1,21 @@
+/* demo page */
+
+.demo {
+    width: 100%;
+    justify-content: center;
+    padding: 35px 0;
+    background-color: #edf0ee;
+  }
+  
+  .demo h1,h3{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .demo_img{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    height: fit-content;
+  }
